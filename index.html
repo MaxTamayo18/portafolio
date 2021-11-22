@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web de Presentación</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon" />
+          <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+        <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+        <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+        <div data-color="hsl(0, 0%, 100%)" class="colors__item colors__item--white"></div>
+        <div data-color="hsl(0, 84%, 56%)" class="colors__item colors__item--red"></div>
+        <div data-color="hsl(21, 84%, 56%)" class="colors__item colors__item--orange"></div>
+        <div data-color="hsl(0, 0%, 0%)" class="colors__item colors__item--black"></div>
+      </div>
+      </header>
+      <nav>
+        <table id="tabla_nav" border="0" align="center" class="links">
+            <tr>
+                <th width="25%"> <a href="proyectos.html"> Proyectos </a> </th>
+                <th width="25%"> <a href="formulario.html"> Formulario </a> </th>
+                <th width="25%"> <a href="ubicacion.html"> Ubicación </a> </th>
+            </tr>
+        </table>
+      </nav>
+      <main class="main">
+        <section class="column column--left">
+          <!--PROFILE CARD-->
+          <article class="card card--profile">
+            <div class="card__image-container">
+              <img src="assets/images/profile.jpg" alt="" />
+            </div>
+            <div class="card__header">
+              <h2 class="card__title no-margin"> Max Tamayo</h2>
+              <p class="card__subtitle">Profesional en Desarrollo</p>
+            </div>
+            <div class="card__body">
+              <div class="card__link">
+                <i class="fas fa-envelope icon"></i>
+                <a href="mailto:tamayomac1804@gmail.com">
+                  maxtamayo1804@gmail.com
+                </a>
+              </div>
+              <div class="card__link">
+                <i class="fas fa-phone-alt icon"></i>
+                <a href="tel:902410883"> +51-902410883 </a>
+              </div>
+              <p class="card__text">
+                Una amplia experiencia en desarrollo web, apacionado en la tecnologia. <br />
+                Mi proposito es diseñar y desarrollar la estructura de paginas web utilizando el mejor lenguaje de programacion para estos. <br> <a download="cucrriculum Vitae" href="curriculum.pdf" class="download">Download</a>
+              </p>
+            </div>
+          </article>
+          <article class="card card--experience">
+            <h2 class="card__titel">Experiencia</h2>
+            <div class="experience">
+              <img src="assets/images/logo.png" alt="logo" class="experience__image">
+              <div class="experience__info">
+                <p class="experience__time">
+                  Mar 2021 - inicio
+                </p>
+                <h3 class="experience__job">Desarrollador</h3>
+                <p class="experience__description">*aun nada*</p>
+              </div>
+            </div>
+          </article>
+          <article class="card card--hobbies">
+            <h2 class="card__title">Hobbies</h2>
+            <div class="card__image-container">
+              <img src="assets/images/hobbie.jpg" alt="Man on a bike">
+            </div>
+            <h3 class="hobbie__title">Ciclismo</h3>
+            <p class="card__text">Una de las formas en las que me desahogo de los asuntos de la cida y despejar mi mente</p>
+          </article>
+        </section>
+        <section class="column column--right">
+          <article class="card">
+            <h2 class="card__title">Desarrollo de Paginas Web</h2>
+            <small>Años de Experiencia</small>
+            <div class="skills__header">
+              <span class="skills_start-level">0</span>
+              <span class="skills_start-level">10</span>
+            </div>
+            <div class="skills">
+              <div class="skills__item">
+                <p class="skills__tech">HTML</p>
+                <div class="skills__bar skills__bar--75"></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech">CSS</p>
+                <div class="skills__bar skills__bar--49"></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech">JavaScript</p>
+                <div class="skills__bar skills__bar--63"></div>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <h2 class="card__title">Diseño</h2>
+            <small>Años de Experiencia</small>
+            <div class="skills__header">
+              <span class="skills_start-level">0</span>
+              <span class="skills_start-level">10</span>
+            </div>
+            <div class="skills">
+              <div class="skills__item">
+                <p class="skills__tech">Pythom</p>
+                <div class="skills__bar skills__bar--51"></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech">cisco</p>
+                <div class="skills__bar skills__bar--64"></div>
+              </div>
+            </div>
+          </article>
+          <article class="card card--project">
+            <div class="card__image-container">
+              <img src="assets/images/project.jpg" alt="landing page" class="card__image">
+            </div>
+            <div class="project">
+              <div class="project__tags">
+                <span class="project__tag">#HTML</span>
+                <span class="project__tag">#CSS</span>
+                <span class="project__tag">#JavaScript</span>
+                <span class="project__tag">#Python</span>
+              </div>
+            <h2 class="card__title">Proyecto de Web</h2>
+            <p class="card__text">*En desarrollo*</p>
+            
+          </article>
+        </section>
+      </main>
+    <script src="js/scripts.js"></script>
+    <form class="form">
+    </form>
+  </body>
+</html>

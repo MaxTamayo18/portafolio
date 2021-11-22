@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+  </head>
+  <body class="dark">
+    <header class="header">
+        <div class="switches">
+          <div id="toggle-theme" class="toggle-theme">
+            <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon" />
+            <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+          </div>
+        </div>
+        <div id="toggle-colors" class="colors">
+          <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+          <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+          <div data-color="hsl(0, 0%, 100%)" class="colors__item colors__item--white"></div>
+          <div data-color="hsl(0, 84%, 56%)" class="colors__item colors__item--red"></div>
+          <div data-color="hsl(21, 84%, 56%)" class="colors__item colors__item--orange"></div>
+          <div data-color="hsl(0, 0%, 0%)" class="colors__item colors__item--black"></div>
+        </div>
+        </header>
+        <nav>
+          <table id="tabla_nav" border="0" align="center" class="links">
+                <tr>
+                    <th width="20%"> <a href="index.html"> Inicio </a> </th>
+                    <th width="20%"> <a href="proyectos.html"> Proyectos </a> </th>
+                    <th width="20%"> <a href="ubicacion.html"> Ubicación </a> </th>
+                </tr>
+            </table>
+          </nav>
+          
+    <section class="form_wrap">
+
+        <section class="cantact_info">
+            <section class="info_title">
+                <span class="fa fa-user-circle"></span>
+                <h2>INFORMACION<br>DE CONTACTO</h2>
+            </section>
+            <section class="info_items">
+                <p><span class="fa fa-envelope"></span> maxtamayo1804@gmail.com</p>
+                <p><span class="fa fa-mobile"></span> +51-902410883</p>
+            </section>
+        </section>
+
+        <form action="" class="form_contact">
+            <h2>Envia un mensaje</h2>
+            <div class="user_info">
+                <label for="names">Nombres:</label>
+                <input type="text" id="names">
+
+                <label for="phone">Telefono / Celular:</label>
+                <input type="text" id="phone">
+
+                <label for="email">Correo electronico:</label>
+                <input type="text" id="email">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje"></textarea>
+
+                <input type="button" value="Enviar Mensaje" id="btnSend">
+            </div>
+        </form>
+
+    </section>
+
+    <script src="js/scripts.js"></script>
+    <form class="form">
+  </body>
+  </html>
